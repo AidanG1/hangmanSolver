@@ -1,0 +1,24 @@
+{
+  "name": "hangmansolver",
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "version": "0.0.1",
+  "description": "Hangman Solver attempts to solve hangman words as they are being entered.",
+  "keywords": "",
+  "license": "",
+  "author": "Aidan Gerber",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^2.6.12"
+  }
+}
